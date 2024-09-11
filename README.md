@@ -9,8 +9,24 @@ This repository contains the code, scripts, and resources for the development of
   - **HuggingFace Transformers**: For state-of-the-art language modeling and response generation.
   - **Langchain**: For handling dynamic conversation flows and managing context.
   - **FAISS (Facebook AI Similarity Search)**: To efficiently retrieve relevant documents and responses from large datasets.
-  - **Chroma**: Used to enhance data processing and embedding capabilities.
-  
+  - **Recursive Text Splitters**: used for processing setting chunk size to 700 and overlap of 110
+  - **thenlper/gte-small**: Used to enhance data embedding capabilities(most suitable embedding model for the dataset collections).
+
+### 📉 Exploratory Analysis
+Extensive exploratory analysis has been conducted and is documented in the notebook, with visualizations available. The analysis covers:
+- **Data Distribution Analysis**: 
+  - Examines the distribution of different content types (e.g., speeches vs. tweets) to understand their representation within the dataset.
+
+- **Sentiment Analysis**: 
+  - Assesses emotional tone variations across different types of content to identify patterns in sentiment.
+
+- **Word Frequency Analysis**: 
+  - Identifies the most commonly used terms and key themes to provide insight into the focus areas of the data.
+
+- **Source Evaluation and Bias Identification**:
+  - Recognizes potential biases (temporal, contextual, selection) that may affect the quality and interpretation of the dataset.
+  - Evaluates the credibility of data sources, emphasizing reputable records and media outlets to ensure data reliability.
+
 ### 🛠️ Functional Implementations
 - **chat_app2.py**: Implements the core chatbot application using Streamlit, allowing users to interact with the chatbot through a web-based interface.
 - **faiss_pipeline.py**: Contains the full RAG pipeline, including functions for data retrieval, embedding, and ranking. Defines methods for searching and ranking documents from the vector database using FAISS.
@@ -24,9 +40,9 @@ This repository contains the code, scripts, and resources for the development of
 
 ### 🔐 Model Evaluation and Performance
 - The chatbot was evaluated for its ability to provide accurate and relevant responses:
-  - **Mean Recall Score**: 0.89
-  - **Precision**: 0.88
-  - **F1 Score**: 0.89
+  - **BERT Mean Recall Score**: 0.89
+  - **BERT Precision**: 0.88
+  - **BERT F1 Score**: 0.89 (Good Harmonic Indication)
 - These metrics demonstrate the chatbot’s effectiveness in maintaining relevance and accuracy, making it a viable solution for enhancing user engagement and reducing operational costs.
 
 ### 📂 Tools and Technologies Used
