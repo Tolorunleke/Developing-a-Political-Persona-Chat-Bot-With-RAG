@@ -47,14 +47,7 @@ The RAG chatbot leverages a modularized pipeline that integrates multiple compon
 ### 🛠️ Functional Implementations
 - **chat_app2.py**: Implements the core chatbot application using Streamlit, allowing users to interact with the chatbot through a web-based interface.
 - **faiss_pipeline.py**: Contains the full RAG pipeline, including functions for data retrieval, embedding, and ranking. Defines methods for searching and ranking documents from the vector database using FAISS.
-- **load_create_vectostore_EDA&Evaluation.ipynb**: Jupyter notebook with detailed steps on:
-
-  - **Data Loading and Preprocessing**: Preparation and cleaning of textual data for efficient retrieval.
-  - **Vector Store Creation**: Embedding data and saving it to a FAISS vector store to facilitate fast and accurate search.
-  - **Exploratory Data Analysis (EDA)**: Visualizations to understand data characteristics and inform model development.
-  - **Evaluation**: Assessment of vector store and RAG model performance, including recall, precision, and F1 score metrics.
-  - **Additional Visualizations**: Illustrations created during the evaluation phase that are not included in the main documentation.
-  - **Ground Truth, Synthetic, and Curated Answers**: Collection and comparison of real and generated responses.
+- **load_create_vectostore_EDA&Evaluation.ipynb**: Jupyter notebook with detailed steps on **Data Loading and Preprocessing**, **Vector Store Creation**, **Exploratory Data Analysis (EDA)**, **Evaluation**, **Additional Visualizations**, **Ground Truth, Synthetic, and Curated Answers**(Collection and comparison of real and generated responses).
 
 ### 🎯 Model Evaluation and key Results 
 - The chatbot was evaluated for its ability to provide accurate and relevant responses:
