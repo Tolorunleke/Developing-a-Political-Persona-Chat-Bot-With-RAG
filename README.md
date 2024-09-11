@@ -17,7 +17,6 @@ Extensive exploratory analysis has been conducted and is documented in the noteb
 - **Data Distribution Analysis**: Examines the distribution of different content types (e.g., speeches vs. tweets) to understand their representation within the dataset.
 - **Sentiment Analysis**: Assesses emotional tone variations across different types of content to identify patterns in sentiment.
 - **Word Frequency Analysis**: Identifies the most commonly used terms and key themes to provide insight into the focus areas of the data.
-
 - **Source Evaluation and Bias Identification**:
   - Recognizes potential biases (temporal, contextual, selection) that may affect the quality and interpretation of the dataset.
   - Evaluates the credibility of data sources, emphasizing reputable records and media outlets to ensure data reliability.
