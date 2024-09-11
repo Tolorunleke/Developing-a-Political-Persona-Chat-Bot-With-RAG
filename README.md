@@ -14,14 +14,9 @@ This repository contains the code, scripts, and resources for the development of
 
 ### 📉 Exploratory Analysis
 Extensive exploratory analysis has been conducted and is documented in the notebook, with visualizations available. The analysis covers:
-- **Data Distribution Analysis**: 
-  - Examines the distribution of different content types (e.g., speeches vs. tweets) to understand their representation within the dataset.
-
-- **Sentiment Analysis**: 
-  - Assesses emotional tone variations across different types of content to identify patterns in sentiment.
-
-- **Word Frequency Analysis**: 
-  - Identifies the most commonly used terms and key themes to provide insight into the focus areas of the data.
+- **Data Distribution Analysis**: Examines the distribution of different content types (e.g., speeches vs. tweets) to understand their representation within the dataset.
+- **Sentiment Analysis**: Assesses emotional tone variations across different types of content to identify patterns in sentiment.
+- **Word Frequency Analysis**: Identifies the most commonly used terms and key themes to provide insight into the focus areas of the data.
 
 - **Source Evaluation and Bias Identification**:
   - Recognizes potential biases (temporal, contextual, selection) that may affect the quality and interpretation of the dataset.
@@ -31,6 +26,7 @@ Extensive exploratory analysis has been conducted and is documented in the noteb
 - **chat_app2.py**: Implements the core chatbot application using Streamlit, allowing users to interact with the chatbot through a web-based interface.
 - **faiss_pipeline.py**: Contains the full RAG pipeline, including functions for data retrieval, embedding, and ranking. Defines methods for searching and ranking documents from the vector database using FAISS.
 - **load_create_vectostore_EDA&Evaluation.ipynb**: Jupyter notebook with detailed steps on:
+
   - **Data Loading and Preprocessing**: Preparation and cleaning of textual data for efficient retrieval.
   - **Vector Store Creation**: Embedding data and saving it to a FAISS vector store to facilitate fast and accurate search.
   - **Exploratory Data Analysis (EDA)**: Visualizations to understand data characteristics and inform model development.
