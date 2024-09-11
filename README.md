@@ -2,7 +2,7 @@
 
 This repository contains the code, scripts, and resources for the development of a Retrieval-Augmented Generation (RAG) chatbot. The project leverages a combination of retrieval-based and generative techniques to create a highly interactive and accurate chatbot designed to provide consistent and meaningful responses for various use cases, such as customer engagement, political conversations, and more.
 
-## 📊 Project Overview
+## 📝 OverView
 
 ### 🔍 Chatbot Design and Development
 - Developed a chatbot using a Retrieval-Augmented Generation (RAG) framework, leveraging advanced tools and libraries:
@@ -32,12 +32,11 @@ Extensive exploratory analysis has been conducted and is documented in the noteb
 - **Chroma**: Initially chosen for its scalability and speed in saving and loading vector stores. However, it faced limitations with large datasets, particularly when using embeddings other than OpenAI, causing inefficiencies and delays due to the requirement of many more manipulations to achieve set goals.
 - **FAISS (Facebook AI Similarity Search)**: Selected for its robust handling of high-dimensional similarity searches, offering quick indexing and retrieval. FAISS was preferred after extensive testing, demonstrating superior performance with the "thenlper/gte-small" embedding model, which provided the best relevance score.
 - **Optimization Trials**: Multiple tests were conducted to match embedding models with the most compatible vector stores, ultimately favoring FAISS and the "thenlper/gte-small" model for optimal similarity relevance scores, while OpenAI embeddings excelled in precision.
-- **Vector Database Evaluation**:
+- **📊Vector Database Evaluation**:
   - **Similarity Score**: Assessed how closely the retrieved documents matched input queries. The **BAAI/bge-base-en-v1.5** model had the highest precision, making it suitable for high-accuracy retrieval scenarios.
   - **Relevance Score**: Measured contextual appropriateness of the retrieved information. The **all-MiniLM-L6-v2** model showed better performance than OpenAI’s embeddings, providing contextually relevant retrievals.
 
-
-### 🧠 Modularized Pipeline and Brain Components
+### 🧠 Modularized Pipeline
 The RAG chatbot leverages a modularized pipeline that integrates multiple components:
 - **Pretrained Models**: Utilizes various pretrained language models from HuggingFace to generate accurate and contextually relevant responses.
 - **Large Language Models (LLMs)**: Mixtral, from Hugging Face, is used as the large language model to serve as the regenerator, enhancing comprehension and generation capabilities for nuanced and context-aware outputs.
