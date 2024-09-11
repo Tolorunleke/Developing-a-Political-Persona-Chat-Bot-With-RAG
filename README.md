@@ -74,9 +74,7 @@ Extensive exploratory analysis has been conducted and is documented in the noteb
 - **dataset/**: Folder containing all datasets utilized, including raw data and API-sourced data.
 
 ## 📈 Future Enhancements
-
 - **Expand Model Coverage**: Incorporate additional data sources to improve response diversity and relevance.
-- **Improve Security Measures**: Implement advanced data encryption techniques to protect sensitive information.
 - **Integrate Real-Time Analytic**s: Develop dashboards to provide insights into chatbot performance and user interaction patterns.
 - **Optimize Performance**: Continuously monitor and refine the RAG pipeline to handle increased data volumes and user queries efficiently.
 
