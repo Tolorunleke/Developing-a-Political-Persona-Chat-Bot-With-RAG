@@ -6,7 +6,7 @@ This repository contains the code, scripts, and resources for the development of
 
 ### 🔍 Chatbot Design and Development
 - Developed a chatbot using a Retrieval-Augmented Generation (RAG) framework, leveraging advanced tools and libraries:
-  - **HuggingFace Transformers**: For state-of-the-art language modeling and response generation.
+  **HuggingFace Transformers**: For state-of-the-art language modeling and response generation.
   - **Langchain**: To handle dynamic conversation flows and context management.
   - **FAISS (Facebook AI Similarity Search)**: For efficient retrieval of relevant documents and responses from large datasets.
   - **Recursive Text Splitters**: Used for processing, setting chunk size to 700 and overlap to 110.
